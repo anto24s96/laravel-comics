@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
+/* HEADER */
 header {
     justify-content: space-between;
     align-items: center;
@@ -38,5 +39,25 @@ header {
                 }
             }
         }
+    }
+}
+
+/* HERO */
+.banner_container {
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+
+    .current_series {
+        display: inline-block;
+        background-color: #0282f9;
+        padding: 10px 30px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 800;
+        position: absolute;
+        bottom: -18px;
     }
 }
