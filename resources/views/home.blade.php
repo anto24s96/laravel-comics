@@ -21,6 +21,7 @@
     <main>
         @include('partials.submain')
     </main>
+    @include('partials.footer')
 </body>
 
 </html>

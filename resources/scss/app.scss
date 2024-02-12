@@ -115,3 +115,78 @@ header {
         }
     }
 }
+
+/* FOOTER */
+#bg-banner {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    height: 370px;
+    position: relative;
+
+    #main-container-footer-list {
+        padding-top: 50px;
+
+        .list-footer-container {
+            margin-right: 40px;
+
+            ul {
+                list-style-type: none;
+            }
+
+            ul li:first-child {
+                margin-bottom: 10px;
+                font-weight: 600;
+                font-size: 16px;
+            }
+
+            ul li:last-child {
+                margin-bottom: 20px;
+            }
+
+            li {
+                margin: 5px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .logo-footer-container {
+        img {
+            position: relative;
+            width: 550px;
+            top: -90px;
+        }
+    }
+}
+
+.bg-black-2 {
+    background-color: #303030;
+    position: relative;
+    z-index: 999;
+    padding: 30px 0;
+
+    #sign-button {
+        border: 2px solid #0282f9;
+        padding: 10px;
+    }
+
+    .footer-list-icons {
+        list-style-type: none;
+
+        li:first-child {
+            color: #0282f9;
+            font-size: 18px;
+            margin-right: 10px;
+            font-weight: 600;
+        }
+
+        img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    }
+}
+
+.text-gray {
+    color: gray;
+}
