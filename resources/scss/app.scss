@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+
+header {
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 100px;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            position: relative;
+
+            a {
+                text-decoration: none;
+                color: #71777c;
+                margin: 0 10px;
+                text-transform: uppercase;
+                font-weight: 600;
+                line-height: 10;
+
+                &.active,
+                &:hover {
+                    color: #0282f9;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 10px;
+                        width: calc(100% - 20px);
+                        height: 5px;
+                        background-color: #0282f9;
+                    }
+                }
+            }
+        }
+    }
+}
