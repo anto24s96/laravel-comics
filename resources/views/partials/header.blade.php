@@ -5,7 +5,8 @@
         </a>
         <nav>
             <ul class="d-flex">
-                <li><a class="nav_link" href="#">characters</a></li>
+                <li><a class="nav_link" {{ Route::currentRouteName() === 'characters' ? 'active' : '' }}
+                        href="{{ route('characters') }}">characters</a></li>
                 <li><a class="nav_link" {{ Route::currentRouteName() === 'comic' ? 'active' : '' }}
                         href="{{ route('comic') }}">comics</a></li>
                 <li><a class="nav_link" href="#">movies</a></li>
