@@ -10,6 +10,7 @@ return [
         "series" => "Action Comics",
         "sale_date" => "2018-10-02",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 2,
@@ -20,6 +21,7 @@ return [
         "series" => "American Vampire 1976",
         "sale_date" => "2020-10-06",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 3,
@@ -30,6 +32,7 @@ return [
         "series" => "Aquaman",
         "sale_date" => "2018-01-24",
         "type" => "graphic novel",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 4,
@@ -40,6 +43,7 @@ return [
         "series" => "Batgirl",
         "sale_date" => "2016-07-27",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 5,
@@ -50,6 +54,7 @@ return [
         "series" => "Batman",
         "sale_date" => "2018-10-03",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 6,
@@ -60,6 +65,7 @@ return [
         "series" => "Batman Beyond",
         "sale_date" => "2016-10-26",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 7,
@@ -70,6 +76,7 @@ return [
         "series" => "Batman/Superman",
         "sale_date" => "2019-08-28",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 8,
@@ -80,6 +87,7 @@ return [
         "series" => "Batman/Superman Annual",
         "sale_date" => "2020-09-29",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 9,
@@ -90,6 +98,7 @@ return [
         "series" => "Batman: The Joker War Zone",
         "sale_date" => "2020-09-29",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 10,
@@ -100,6 +109,7 @@ return [
         "series" => "Batman: Three Jokers",
         "sale_date" => "2020-08-25",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 11,
@@ -110,6 +120,7 @@ return [
         "series" => "Batman: White Knight Presents: Harley Quinn",
         "sale_date" => "2020-10-20",
         "type" => "comic book",
+        "talent" => "DC-Marvel"
     ],
     [
         "id" => 12,
@@ -120,5 +131,6 @@ return [
         "series" => "Catwoman",
         "sale_date" => "2019-04-10",
         "type" => "graphic novel",
+        "talent" => "DC-Marvel"
     ]
 ];

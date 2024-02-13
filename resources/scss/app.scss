@@ -8,6 +8,20 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* COMMON */
+.my-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blu-comics {
+    color: #0282f9;
+}
+
+.my-green {
+    color: #acf98a;
+}
+
 /* HEADER */
 header {
     justify-content: space-between;
@@ -160,12 +174,6 @@ header {
     }
 }
 
-.clearfix {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .bg-black-2 {
     background-color: #303030;
     position: relative;
@@ -196,4 +204,56 @@ header {
 
 .text-gray {
     color: gray;
+}
+
+/* DETAILS SECTION */
+.card_details_container {
+    width: 230px;
+    top: 160px;
+
+    .cover_detail {
+        height: 300px;
+        width: 100%;
+
+        img {
+            height: 300px;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        .comic_book {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #00a9d9;
+        }
+
+        .view_gallery {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #00a9d9;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+.details_comic_blu_bar {
+    background-color: #0282f9;
+    height: 90px;
+}
+
+.details_available_container {
+    background-color: #55ba59;
+}
+
+.cover_details_right {
+    img {
+        width: 300px;
+    }
+}
+
+.my-bg-grey {
+    background-color: #f6f6f6;
 }
