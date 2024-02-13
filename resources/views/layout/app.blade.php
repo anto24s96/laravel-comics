@@ -16,9 +16,10 @@
 </head>
 
 <body>
-    @include('partials.header')
-    <div class="banner_container"></div>
+    @include('partials/header')
+    @include('/partials/hero')
     <main>
+        @yield('content')
         @include('partials.submain')
     </main>
     @include('partials.footer')
