@@ -6,7 +6,7 @@
             <div class="row py-3">
                 @foreach ($comics as $covers)
                     <div class="col-2 pb-3">
-                        <a href="{{ route('detail_comics', ['param' => $covers['id']]) }}">
+                        <a href="{{ route('detail_comics', ['param' => $covers['id']]) }}" class="text-decoration-none">
                             <div class="card border-0 rounded-0">
                                 <div class="cover_container">
                                     <img src="{{ $covers['thumb'] }}" class="card-img-top rounded-0" alt="covers">
