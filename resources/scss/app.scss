@@ -152,11 +152,18 @@ header {
 
     .logo-footer-container {
         img {
-            position: relative;
+            position: absolute;
             width: 550px;
             top: -90px;
+            right: 210px;
         }
     }
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .bg-black-2 {
