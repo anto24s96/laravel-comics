@@ -6,17 +6,19 @@
             <div class="row py-3">
                 @foreach ($comics as $covers)
                     <div class="col-2 pb-3">
-                        <div class="card border-0 rounded-0">
-                            <div class="cover_container">
-                                <img src="{{ $covers['thumb'] }}" class="card-img-top rounded-0" alt="covers">
+                        <a href="{{ route('detail_comics', ['param' => $covers['id']]) }}">
+                            <div class="card border-0 rounded-0">
+                                <div class="cover_container">
+                                    <img src="{{ $covers['thumb'] }}" class="card-img-top rounded-0" alt="covers">
+                                </div>
+                                <div class="card-body bg-dark text-white">
+                                    <h5 class="card-title text-center text-uppercase fw-bolder">
+                                        {{ $covers['series'] }}
+                                    </h5>
+                                    <p class="card-text"></p>
+                                </div>
                             </div>
-                            <div class="card-body bg-dark text-white">
-                                <h5 class="card-title text-center text-uppercase fw-bolder">
-                                    {{ $covers['series'] }}
-                                </h5>
-                                <p class="card-text"></p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
